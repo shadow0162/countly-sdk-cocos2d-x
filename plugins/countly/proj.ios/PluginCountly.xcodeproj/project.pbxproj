@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF5DCD471B26D65B00F1970A /* AnalyticsCountly.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5DCD3A1B26D65B00F1970A /* AnalyticsCountly.m */; };
+		BF5DCD481B26D65B00F1970A /* Countly_OpenUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5DCD3C1B26D65B00F1970A /* Countly_OpenUDID.m */; };
+		BF5DCD491B26D65B00F1970A /* Countly.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5DCD3E1B26D65B00F1970A /* Countly.m */; };
+		BF5DCD4C1B26D65B00F1970A /* CountlyDB.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5DCD441B26D65B00F1970A /* CountlyDB.m */; };
+		BF64D9711B27E6F800D91972 /* Countly.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BF64D96F1B27E6F800D91972 /* Countly.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BF5DCD1D1B26D23600F1970A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BF5DCD1F1B26D23600F1970A /* libPluginCountly.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPluginCountly.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF5DCD391B26D65B00F1970A /* AnalyticsCountly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnalyticsCountly.h; sourceTree = "<group>"; };
+		BF5DCD3A1B26D65B00F1970A /* AnalyticsCountly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnalyticsCountly.m; sourceTree = "<group>"; };
+		BF5DCD3B1B26D65B00F1970A /* Countly_OpenUDID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Countly_OpenUDID.h; sourceTree = "<group>"; };
+		BF5DCD3C1B26D65B00F1970A /* Countly_OpenUDID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Countly_OpenUDID.m; sourceTree = "<group>"; };
+		BF5DCD3D1B26D65B00F1970A /* Countly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Countly.h; sourceTree = "<group>"; };
+		BF5DCD3E1B26D65B00F1970A /* Countly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Countly.m; sourceTree = "<group>"; };
+		BF5DCD431B26D65B00F1970A /* CountlyDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountlyDB.h; sourceTree = "<group>"; };
+		BF5DCD441B26D65B00F1970A /* CountlyDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountlyDB.m; sourceTree = "<group>"; };
+		BF64D9701B27E6F800D91972 /* Countly.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Countly.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF5DCD1C1B26D23600F1970A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF5DCD161B26D23600F1970A = {
+			isa = PBXGroup;
+			children = (
+				BF64D96F1B27E6F800D91972 /* Countly.xcdatamodeld */,
+				BF5DCD391B26D65B00F1970A /* AnalyticsCountly.h */,
+				BF5DCD3A1B26D65B00F1970A /* AnalyticsCountly.m */,
+				BF5DCD3B1B26D65B00F1970A /* Countly_OpenUDID.h */,
+				BF5DCD3C1B26D65B00F1970A /* Countly_OpenUDID.m */,
+				BF5DCD3D1B26D65B00F1970A /* Countly.h */,
+				BF5DCD3E1B26D65B00F1970A /* Countly.m */,
+				BF5DCD431B26D65B00F1970A /* CountlyDB.h */,
+				BF5DCD441B26D65B00F1970A /* CountlyDB.m */,
+				BF5DCD201B26D23600F1970A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF5DCD201B26D23600F1970A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF5DCD1F1B26D23600F1970A /* libPluginCountly.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF5DCD1E1B26D23600F1970A /* PluginCountly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF5DCD331B26D23700F1970A /* Build configuration list for PBXNativeTarget "PluginCountly" */;
+			buildPhases = (
+				BF5DCD1B1B26D23600F1970A /* Sources */,
+				BF5DCD1C1B26D23600F1970A /* Frameworks */,
+				BF5DCD1D1B26D23600F1970A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PluginCountly;
+			productName = PluginCountly;
+			productReference = BF5DCD1F1B26D23600F1970A /* libPluginCountly.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF5DCD171B26D23600F1970A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Shadow;
+				TargetAttributes = {
+					BF5DCD1E1B26D23600F1970A = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = BF5DCD1A1B26D23600F1970A /* Build configuration list for PBXProject "PluginCountly" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BF5DCD161B26D23600F1970A;
+			productRefGroup = BF5DCD201B26D23600F1970A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF5DCD1E1B26D23600F1970A /* PluginCountly */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF5DCD1B1B26D23600F1970A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF5DCD481B26D65B00F1970A /* Countly_OpenUDID.m in Sources */,
+				BF5DCD4C1B26D65B00F1970A /* CountlyDB.m in Sources */,
+				BF64D9711B27E6F800D91972 /* Countly.xcdatamodeld in Sources */,
+				BF5DCD491B26D65B00F1970A /* Countly.m in Sources */,
+				BF5DCD471B26D65B00F1970A /* AnalyticsCountly.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BF5DCD311B26D23700F1970A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BF5DCD321B26D23700F1970A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF5DCD341B26D23700F1970A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../../protocols/platform/ios";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BF5DCD351B26D23700F1970A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../../protocols/platform/ios";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF5DCD1A1B26D23600F1970A /* Build configuration list for PBXProject "PluginCountly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF5DCD311B26D23700F1970A /* Debug */,
+				BF5DCD321B26D23700F1970A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF5DCD331B26D23700F1970A /* Build configuration list for PBXNativeTarget "PluginCountly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF5DCD341B26D23700F1970A /* Debug */,
+				BF5DCD351B26D23700F1970A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BF64D96F1B27E6F800D91972 /* Countly.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BF64D9701B27E6F800D91972 /* Countly.xcdatamodel */,
+			);
+			currentVersion = BF64D9701B27E6F800D91972 /* Countly.xcdatamodel */;
+			path = Countly.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BF5DCD171B26D23600F1970A /* Project object */;
+}
