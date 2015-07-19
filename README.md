@@ -84,8 +84,8 @@ void TestCountly::loadPlugins()
 If you want to reuse Umeng & flurry sdk, please uncommment the code in 'HelloWorldScene' below.
 
 ## JS Binding Doc
-[cocos-doc](https://github.com/chukong/cocos-docs/tree/master/manual/framework/html5/jsb/plugin-x)
-[Plugin-X JS in iOS](https://github.com/chukong/cocos-docs/blob/master/manual/framework/html5/jsb/plugin-x/how-to-use-plugin-x-on-iOS/zh.md)
+- [cocos-doc](https://github.com/chukong/cocos-docs/tree/master/manual/framework/html5/jsb/plugin-x)
+- [Plugin-X JS in iOS](https://github.com/chukong/cocos-docs/blob/master/manual/framework/html5/jsb/plugin-x/how-to-use-plugin-x-on-iOS/zh.md)
 
 ## Troubleshooting
 ```
